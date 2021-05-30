@@ -1,0 +1,49 @@
+body {
+  background-color: white;
+  font-family: "Open Sans", Veranda, sans-serif;
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Odibee Sans", cursive;
+  color: #0f2b2d;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+footer::before,
+footer::after {
+  content: "|";
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.active {
+  text-decoration: underline;
+}
